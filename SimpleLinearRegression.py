@@ -11,7 +11,8 @@ import pylab as pl
 import numpy as np
 
 ##File can be downladed from: https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv
-df = pd.read_csv(r"C:\Users\Suat\Documents\Programming\BM ML0101EN Machine Larning With Python\FuelConsumptionCo2.csv")
+df = pd.read_csv(r"https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv")
+
 
 ##If you want to take look first 5 rows
 df.head()
